@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "SJLoadingView.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) SJLoadingView *loadingView;
 
 @end
 
@@ -16,9 +19,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.view.backgroundColor = [UIColor blackColor];
+    
+    _loadingView = [SJLoadingView new];
+    _loadingView.lineColor = [UIColor whiteColor];
+    _loadingView.speed = 1;
+    [self.view addSubview:_loadingView];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)start:(id)sender {
+    [_loadingView start];
+}
+
+- (IBAction)stop:(id)sender {
+    [_loadingView stop];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
