@@ -1,7 +1,7 @@
 # SJLoadingView
 
-### 可匹配点击的Label:
-<img src="https://github.com/changsanjiang/SJLoadingView/blob/master/Demo/SJLabel/ex1.gif" />
+### Loading View:
+<img src="https://github.com/changsanjiang/SJLoadingView/blob/master/Demo/SJLoadingViewProject/ex1.gif" />
 
 ### Use
 
