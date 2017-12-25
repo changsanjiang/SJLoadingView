@@ -45,6 +45,7 @@
 }
 
 - (void)setLineColor:(UIColor *)lineColor {
+    if ( !lineColor ) return;
     _lineColor = lineColor;
     _gradientLayer.colors = @[
                               (id)[UIColor colorWithWhite:0.001 alpha:0.001].CGColor,
