@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7754FF271FF4A3B300D5B167 /* ex1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7754FF261FF4A3B300D5B167 /* ex1.gif */; };
+		7754FF391FF4F87D00D5B167 /* ex2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7754FF381FF4F87D00D5B167 /* ex2.gif */; };
 		775936641FF4992F009C47A4 /* ex.gif in Resources */ = {isa = PBXBuildFile; fileRef = 775936631FF4992F009C47A4 /* ex.gif */; };
 		A650A9CF1FEFBB8B00BE2D8C /* SJLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A650A9CE1FEFBB8B00BE2D8C /* SJLoadingView.m */; };
 		A650A9D21FEFBCB900BE2D8C /* SJLoadingView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A650A9D01FEFBCB900BE2D8C /* SJLoadingView.podspec */; };
@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7754FF261FF4A3B300D5B167 /* ex1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ex1.gif; path = ../../../../../Desktop/ex1.gif; sourceTree = "<group>"; };
+		7754FF381FF4F87D00D5B167 /* ex2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ex2.gif; sourceTree = "<group>"; };
 		775936631FF4992F009C47A4 /* ex.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ex.gif; sourceTree = "<group>"; };
 		A650A9CD1FEFBB8B00BE2D8C /* SJLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoadingView.h; sourceTree = "<group>"; };
 		A650A9CE1FEFBB8B00BE2D8C /* SJLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLoadingView.m; sourceTree = "<group>"; };
@@ -103,8 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				A6F478861FEF78AB00C0293E /* Main.storyboard */,
-				7754FF261FF4A3B300D5B167 /* ex1.gif */,
 				775936631FF4992F009C47A4 /* ex.gif */,
+				7754FF381FF4F87D00D5B167 /* ex2.gif */,
 				A6F478891FEF78AB00C0293E /* Assets.xcassets */,
 				A6F4788B1FEF78AB00C0293E /* LaunchScreen.storyboard */,
 				A6F4788E1FEF78AB00C0293E /* Info.plist */,
@@ -272,8 +272,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7754FF391FF4F87D00D5B167 /* ex2.gif in Resources */,
 				A6F4788D1FEF78AB00C0293E /* LaunchScreen.storyboard in Resources */,
-				7754FF271FF4A3B300D5B167 /* ex1.gif in Resources */,
 				A6F4788A1FEF78AB00C0293E /* Assets.xcassets in Resources */,
 				A650A9D31FEFBCB900BE2D8C /* README.md in Resources */,
 				A6F478881FEF78AB00C0293E /* Main.storyboard in Resources */,

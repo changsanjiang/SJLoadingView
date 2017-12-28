@@ -18,7 +18,7 @@ pod 'SJLoadingView'
 
 ### AnimType
 Keep:
-<img src="https://github.com/changsanjiang/SJLoadingView/blob/master/Demo/SJLoadingViewProject/ex1.gif" />
+<img src="https://github.com/changsanjiang/SJLoadingView/blob/master/Demo/SJLoadingViewProject/ex2.gif" />
 
 FadeOut:
 <img src="https://github.com/changsanjiang/SJLoadingView/blob/master/Demo/SJLoadingViewProject/ex.gif" />
