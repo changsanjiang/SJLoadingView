@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		775936641FF4992F009C47A4 /* ex.gif in Resources */ = {isa = PBXBuildFile; fileRef = 775936631FF4992F009C47A4 /* ex.gif */; };
 		A650A9CF1FEFBB8B00BE2D8C /* SJLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A650A9CE1FEFBB8B00BE2D8C /* SJLoadingView.m */; };
 		A650A9D21FEFBCB900BE2D8C /* SJLoadingView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A650A9D01FEFBCB900BE2D8C /* SJLoadingView.podspec */; };
 		A650A9D31FEFBCB900BE2D8C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A650A9D11FEFBCB900BE2D8C /* README.md */; };
-		A650A9D51FEFBDA200BE2D8C /* ex1.gif in Resources */ = {isa = PBXBuildFile; fileRef = A650A9D41FEFBDA100BE2D8C /* ex1.gif */; };
 		A6F478821FEF78AB00C0293E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F478811FEF78AB00C0293E /* AppDelegate.m */; };
 		A6F478851FEF78AB00C0293E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F478841FEF78AB00C0293E /* ViewController.m */; };
 		A6F478881FEF78AB00C0293E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6F478861FEF78AB00C0293E /* Main.storyboard */; };
@@ -39,11 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		775936631FF4992F009C47A4 /* ex.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ex.gif; sourceTree = "<group>"; };
 		A650A9CD1FEFBB8B00BE2D8C /* SJLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoadingView.h; sourceTree = "<group>"; };
 		A650A9CE1FEFBB8B00BE2D8C /* SJLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLoadingView.m; sourceTree = "<group>"; };
 		A650A9D01FEFBCB900BE2D8C /* SJLoadingView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SJLoadingView.podspec; path = ../SJLoadingView.podspec; sourceTree = "<group>"; };
 		A650A9D11FEFBCB900BE2D8C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A650A9D41FEFBDA100BE2D8C /* ex1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ex1.gif; sourceTree = "<group>"; };
 		A6F4787D1FEF78AB00C0293E /* SJLoadingViewProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SJLoadingViewProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6F478801FEF78AB00C0293E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A6F478811FEF78AB00C0293E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				A6F478861FEF78AB00C0293E /* Main.storyboard */,
-				A650A9D41FEFBDA100BE2D8C /* ex1.gif */,
+				775936631FF4992F009C47A4 /* ex.gif */,
 				A6F478891FEF78AB00C0293E /* Assets.xcassets */,
 				A6F4788B1FEF78AB00C0293E /* LaunchScreen.storyboard */,
 				A6F4788E1FEF78AB00C0293E /* Info.plist */,
@@ -272,9 +272,9 @@
 				A6F4788D1FEF78AB00C0293E /* LaunchScreen.storyboard in Resources */,
 				A6F4788A1FEF78AB00C0293E /* Assets.xcassets in Resources */,
 				A650A9D31FEFBCB900BE2D8C /* README.md in Resources */,
-				A650A9D51FEFBDA200BE2D8C /* ex1.gif in Resources */,
 				A6F478881FEF78AB00C0293E /* Main.storyboard in Resources */,
 				A650A9D21FEFBCB900BE2D8C /* SJLoadingView.podspec in Resources */,
+				775936641FF4992F009C47A4 /* ex.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
