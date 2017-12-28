@@ -33,11 +33,29 @@
                                     <action selector="stop:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pt6-vx-S9W"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9y-zh-ppp">
+                                <rect key="frame" x="77" y="595" width="35" height="30"/>
+                                <state key="normal" title="Keep"/>
+                                <connections>
+                                    <action selector="keep:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pZK-fK-XlR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uiL-lp-JTP">
+                                <rect key="frame" x="154" y="595" width="66" height="30"/>
+                                <state key="normal" title="Fade-Out"/>
+                                <connections>
+                                    <action selector="fadeOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e2U-Iz-pJv"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="uiL-lp-JTP" firstAttribute="top" secondItem="a9y-zh-ppp" secondAttribute="top" id="CPp-lo-Dei"/>
+                            <constraint firstItem="a9y-zh-ppp" firstAttribute="centerX" secondItem="PmI-rF-uh1" secondAttribute="centerX" id="Ehh-xP-haG"/>
+                            <constraint firstItem="a9y-zh-ppp" firstAttribute="top" secondItem="PmI-rF-uh1" secondAttribute="bottom" constant="21" id="Itg-Ws-x3O"/>
                             <constraint firstItem="Kin-BU-wB8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="1.5" id="KFn-Hr-37h"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PmI-rF-uh1" secondAttribute="bottom" constant="93" id="Log-m4-gNj"/>
+                            <constraint firstItem="uiL-lp-JTP" firstAttribute="leading" secondItem="a9y-zh-ppp" secondAttribute="trailing" constant="42" id="hRE-mp-VLw"/>
                             <constraint firstItem="PmI-rF-uh1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" multiplier="0.5" id="lYU-46-8VA"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Kin-BU-wB8" secondAttribute="bottom" constant="93" id="oMh-L8-2Ys"/>
                         </constraints>

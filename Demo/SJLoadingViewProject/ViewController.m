@@ -39,6 +39,16 @@
 - (IBAction)stop:(id)sender {
     [_loadingView stop];
 }
+- (IBAction)keep:(id)sender {
+    [_loadingView stop];
+    _loadingView.animType = SJLoadingType_Keep;
+    [_loadingView start];
+}
+- (IBAction)fadeOut:(id)sender {
+    [_loadingView stop];
+    _loadingView.animType = SJLoadingType_FadeOut;
+    [_loadingView start];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

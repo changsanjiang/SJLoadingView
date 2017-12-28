@@ -62,7 +62,7 @@
 - (void)start {
     if ( _animating ) return;
     _animating = YES;
-    [self _strokeAnim_Show];
+    if ( _animType == SJLoadingType_FadeOut ) [self _strokeAnim_Show];
     self.alpha = 1;
     CABasicAnimation *rotationAnim = [CABasicAnimation animationWithKeyPath:@"transform.rotation.z"];
     rotationAnim.toValue = [NSNumber numberWithFloat:2 * M_PI];
@@ -131,8 +131,9 @@
     _shapeLayer = [CAShapeLayer layer];
     _shapeLayer.strokeColor = [UIColor blueColor].CGColor;
     _shapeLayer.fillColor = [UIColor clearColor].CGColor;
-    _shapeLayer.strokeStart = 0.1;
+    _shapeLayer.strokeStart = 0.15;
     _shapeLayer.strokeEnd = 0.8;
+    _shapeLayer.lineCap = @"round";
     return _shapeLayer;
 }
 
