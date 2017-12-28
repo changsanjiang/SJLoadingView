@@ -94,7 +94,6 @@
 }
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
-    if ( !_animating ) return;
     if ( _strokeShow ) [self _strokeAnim_Dismiss];
     else [self _strokeAnim_Show];
 }
@@ -103,6 +102,7 @@
     if ( !_animating ) return;
     _animating = NO;
     self.alpha = 0.001;
+    [_shapeLayer removeAllAnimations];
     [_gradientLayer removeAllAnimations];
 }
 
