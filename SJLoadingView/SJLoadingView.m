@@ -94,6 +94,7 @@
 }
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag {
+    if ( !_animating ) return;
     if ( _strokeShow ) [self _strokeAnim_Dismiss];
     else [self _strokeAnim_Show];
 }
